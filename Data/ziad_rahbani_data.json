@@ -46,7 +46,7 @@
         "turning_point_1973": "تلحين أغنية 'سألوني الناس' لفيروز في مسرحية 'المحطة' وهو في سن الـ17، بسبب غياب والده عاصي في المستشفى. حققت الأغنية نجاحاً كبيراً لتمتعها برصانة موسيقية.",
         "theatrical_acting_debut": "تجسيد دور الشرطي في مسرحية 'المحطة'، وتكرار الدور في مسرحية 'ميس الريم' وتقديم مقدمتها الموسيقية المجددة.",
         "first_original_play": "مسرحية 'سهرية' (1973) بطلب من فرقة مسرحية لبنانية، واحتفظت بشكل المسرح الرحباني الكلاسيكي (حفلة غنائية).",
-        "theatrical_shift": "الابتعاد عن النمط المثالي والخيالي للأخوين رحباني والاتجاه نحو مسرح سياسي واقعي يعكس الحرب الأهلية اللبنانية وهموم المجتمع بلغة نقدية لاذعة وسخرية سوداء."
+        "theatrical_shift": "الابتعاد عن النمط المثال الخيالي للأخوين رحباني والاتجاه نحو مسرح سياسي واقعي يعكس الحرب الأهلية اللبنانية وهموم المجتمع بلغة نقدية لاذعة وسخرية سوداء."
     },
     "major_theatrical_works_chronological": [
         {
@@ -93,7 +93,13 @@
         },
         {
             "title": "الفصل الآخر",
-            "description": "الجزء الثالث من بخصوص الكرامة"
+            "year": 1995,
+            "description": "الجزء الثالث والامتداد لمسرحية بخصوص الكرامة والشعب العنيد"
+        },
+        {
+            "title": "مجرّد حكاية",
+            "year": 2001,
+            "description": "مسرحية ناقدة تناولت الواقع اللبناني في مطلع الألفية الجديدة"
         }
     ],
     "collaborations_with_fairouz": {
@@ -120,7 +126,17 @@
             "نطرونا",
             "مقدمة مسرحية ميس الريم",
             "حبو بعضن",
-            "مقدمة مسرحية بترا"
+            "مقدمة مسرحية بترا",
+            "حبوا بعضن",
+            "البواب",
+            "لأمش كاين هيك تكون",
+            "ما شاورت حالي",
+            "بيت صغير بكندا",
+            "رح نبقى سوا",
+            "تأخرنا",
+            "يا ريتك",
+            "عهدير البوسطة",
+            "عليك السَّلام"
         ],
         "key_albums": [
             {"title": "وحدن", "year": 1979},
@@ -130,7 +146,8 @@
             {"title": "مش كاين هيك تكون", "year": 1999},
             {"title": "فيروز في بيت الدين", "year": 2000},
             {"title": "ولا كيف", "year": 2001},
-            {"title": "ايه، في أمل", "year": 2010}
+            {"title": "ايه، في أمل", "year": 2010},
+            {"title": "ببالي", "year": 2017, "description": "إنتاج وتوزيع وإشراف ريما الرحباني ببعض الاستشارات اللحنية"}
         ]
     },
     "other_artistic_collaborations_and_solo_works": {
@@ -149,12 +166,20 @@
             },
             {
                 "name": "سامي حواط",
-                "details": "تعاون غنائي"
+                "details": "تعاون غنائي في أعمال يسارية وثورية متعددة (ألبوم الرأي العام)"
             },
             {
                 "name": "سلمى مصفي",
                 "details": "تعاون غنائي، وألبوم 'مونودوز' (كلمات وألحان وتوزيع زياد الرحباني)",
                 "url": "https://genius.com/albums/Salma-mousfi-and-ziad-rahbani/Monodose"
+            },
+            {
+                "name": "غسان صليبا",
+                "details": "تعاون غنائي مبكر في مسرحية سهرية وأغنيات مثل 'معرفتي فيك' قبل غنائها من فيروز"
+            },
+            {
+                "name": "رشا رزق",
+                "details": "مشاركات غنائية حية في بعض الحفلات الأوركسترالية وجولات الجاز"
             }
         ],
         "solo_vocals_and_music_albums": [
@@ -183,27 +208,37 @@
             {"title": "إسمع يا رضا"},
             {"title": "مارغريتا"},
             {"title": "حكايا (ألبوم للأطفال)"},
+            {"title": "شاو تينغ (Chiao Ting)", "description": "ألبوم جاز تجريبي مميز"},
+            {"title": "الأوركسترا العربية الشرقية - حية", "description": "تسجيلات موسيقية أوركسترالية بقيادته"},
             {
-                "title": "Track / Work 1",
+                "title": "مقطوعة بلا ولا شيء (نسخة البيانو)",
+                "description": "تسجيل نادر لزياد الرحباني يعزف فيه اللحن الشهير لأغنية بلا ولا شيء منفردًا على البيانو",
                 "url": "https://youtu.be/Cg-3Cbilrz8?si=MiVKAryPTehhaR1E"
             },
             {
-                "title": "Track / Work 2",
+                "title": "مقدمة مسرحية لولا فسحة الأمل",
+                "description": "الموسيقى الافتتاحية الرسمية للمسرحية التي عُرضت عام 1994، وتتميز بخلط فريد للآلات الشرقية والغربية",
                 "url": "https://youtu.be/e2wRt884RXg?si=20n6ugowP1wUJV9_"
             },
             {
-                "title": "Track / Work 3",
+                "title": "أغنية روح خبر - جوزيف صقر",
+                "description": "من الروائع المشتركة للثنائي؛ كلمات وألحان زياد الرحباني وغناء الفنان جوزيف صقر بتوزيع جاز شرقي",
                 "url": "https://youtu.be/qFOndm62U1Q?si=kHp2dFMSmB-cfjb9"
             },
             {
-                "title": "Track / Work 4",
+                "title": "مقدمة مسرحية فيلم أمريكي طويل",
+                "description": "المقدمة الموسيقية التصويرية الشهيرة لعمله المسرحي البارز الذي وثق مأساة الحرب الأهلية عام 1980",
                 "url": "https://youtu.be/Ugx9LD08tRQ?si=LOFtRU1PIcCtslnx"
             }
         ],
         "singles_and_notable_tracks": [
             {"title": "شو هالأيام", "description": "من أشهر الأغاني الناقدة والمحفورة في الذاكرة اللبنانية"},
             {"title": "تلفن عياش", "description": "أغنية ساخرة تحاكي الوضع الأمني والسياسي العبثي"},
-            {"title": "ضلك حبيني يا لوزية", "description": "أولى ألحانه الغنائية عام 1971"}
+            {"title": "ضلك حبيني يا لوزية", "description": "أولى ألحانه الغنائية عام 1971"},
+            {"title": "أنا جيت عشانك", "description": "من الأغاني الساخرة ذات الطابع السياسي والاجتماعي الحاد"},
+            {"title": "مربى دلال", "description": "أغنية كتبت ولحنت لتعكس جوانب من علاقته بزوجته السابقة دلال كرم"},
+            {"title": "بصراحة", "description": "أغنية ناقدة ومباشرة من ألحانه وكلماته"},
+            {"title": "عايشة وحدا بلاك", "description": "أغنية شهيرة غناها جوزيف صقر وصارت أيقونة مسرحية"}
         ],
         "concerts_and_specials": [
             {
@@ -226,6 +261,10 @@
             },
             {
                 "title": "ألبوم مسرحيتي 'أمرك سيدنا' و'أبطال وحرامية'"
+            },
+            {
+                "title": "حفلات عاصي.. تحية إلى عاصي الرحباني",
+                "description": "سلسلة حفلات مخصصة لإعادة توزيع وإحياء إرث والده الموسيقي"
             }
         ]
     },
@@ -240,14 +279,17 @@
         {
             "title": "بعدنا طيبين..... قول الله",
             "year": 1976,
+            "medium": "إذاعة",
             "station": "إذاعة لبنان - الصنائع (على أثر الحرب اللبنانية)"
         },
         {
             "title": "تابع لشي تابع شي",
+            "medium": "إذاعة",
             "url": "https://youtube.com/playlist?list=PLhwujLYUdggPsDiA--6hSRhTnvM-KEdV2&si=aGgIk5f6kHzPemZ4"
         },
         {
             "title": "العقل زينة",
+            "medium": "إذاعة",
             "url": "https://youtube.com/playlist?list=PLCC38C2CF9730F87E&si=7Ae--N5MW_-K76Ag"
         },
         {
@@ -256,20 +298,33 @@
             "station": "NBN",
             "description": "مجموعة من المقابلات الفكرية والسياسية المطولة في أواخر التسعينيات"
         },
-        {"title": "ياه ما أحلاكم"},
-        {"title": "نص الألف خمسمية"},
+        {"title": "ياه ما أحلاكم", "medium": "إذاعة", "description": "برنامج إذاعي يومي ناقد وساخر خلال فترة الحرب"},
+        {"title": "نص الألف خمسمية", "medium": "إذاعة", "description": "لوحات إسكتش إذاعية كوميدية سوداء تتناول الأزمة الاقتصادية"},
         {
             "title": "الإعلان رقم 1 و 2 و 3 و 4",
             "year": 2006,
+            "medium": "إذاعة/تلفزيون",
             "description": "على أثر استشهاد رفيق الحريري وتبعات تلك الفترة"
         },
         {
             "title": "ضربت يا معلم",
+            "medium": "إذاعة",
             "collab": "مع إيلي ناكوزي"
         },
         {
             "title": "يعطيك العافية",
-            "description": "موسيقى تصويرية للشريط الإذاعي"
+            "medium": "إذاعة",
+            "description": "موسيقى تصويرية للشريط الإذاعي ولوحاته"
+        },
+        {
+            "title": "برنامج أسمر وعريض",
+            "medium": "إذاعة",
+            "description": "من الحلقات الإذاعية الساخرة التي بثت في فترة الثمانينات"
+        },
+        {
+            "title": "شي غريب",
+            "medium": "إذاعة",
+            "description": "إسكتشات وبرامج إذاعية ناقدة عبر صوت الشعب"
         }
     ],
     "acting_and_cinematography": {
@@ -293,7 +348,8 @@
             {"work": "فيلم بيروت: الفيلم الرئيسية الأخيرة", "director": "جنيفر فوكس", "year": 1987},
             {"work": "فيلم متحضرات", "director": "رندة الشهال", "year": 1999},
             {"work": "فيلم طيارة من ورق", "director": "رندة الشهال", "year": 2003},
-            {"work": "فيلم ظلال الصمت", "director": "عبد الله المحسن", "year": 2006}
+            {"work": "فيلم ظلال الصمت", "director": "عبد الله المحسن", "year": 2006},
+            {"work": "فيلم كان ياما كان (بيروت شبح)", "director": "غسان سلهب", "year": 1998, "description": "وضع الموسيقى التصويرية والخلفيات الصوتية للفيلم"}
         ]
     },
     "personal_life_and_relationships": {
@@ -340,39 +396,39 @@
             "description": "وثائقي شامل يتناول مسيرة زياد الفنية والسياسية بالتفصيل، ويتضمن حواراً مطولاً معه في الاستوديو الخاص به حول طفولته، خروجه من منزل الأهل، أسلوبه الموسيقي، وموقفه من الحرب والسلم اللبناني."
         },
         "links": [
-            {"id": 1, "url": "https://youtu.be/IOkjHBXPaDw?si=wqosAyCd-1SPnmje", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 2, "url": "https://youtu.be/qv8TcKnpxio?si=0dVOTJweVnWCYMEw", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 3, "url": "https://youtu.be/FBVoUTweQAo?si=o3w5W2Jvl6uTTFuM", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 4, "url": "https://youtu.be/HxgfSBAsn2c?si=VRXNX1gg0sLOY8Dr", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 5, "url": "https://youtu.be/Fs71a_AupEA?si=8_kYdHPHAZZM2dWU", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 6, "url": "https://youtu.be/Fg9kVjnmftI?si=ShpIcMqGjzfpP3Zx", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 7, "url": "https://youtu.be/elI9-y3ZXnA?si=nHMx4BlxNCfvFUDT", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 8, "url": "https://youtu.be/a14MXoDcMoc?si=ryyuz5Hq-UvTkRyi", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 9, "url": "https://youtu.be/nVUKD2rxcTA?si=oUJLjxkwHyMnR1sW", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 10, "url": "https://youtu.be/Qo9kFTSwxcM?si=0o_hLk4IJBOW2sHO", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 11, "url": "https://youtu.be/_MmRqsSl6sc?si=U4cgz6u9unB2kiSP", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 12, "url": "https://youtu.be/3LWgE465Cr4?si=t5FoLQA2CZwbi9z6", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 13, "url": "https://youtu.be/T84-uqbZdVE?si=jVyaIA3dxOsKr-Dc", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 14, "url": "https://youtu.be/jh4ENajuBtY?si=A3eDnbbcA7LBFgK0", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 15, "url": "https://youtu.be/eEeVJGRmSKI?si=BR84yH4phk6qD0Un", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 16, "url": "https://youtu.be/Rlw0kQZmLOM?si=Jd6flN-1N2bwAVgw", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 17, "url": "https://youtu.be/HIIz2VDN2uI?si=3XvldjpwIrbaFt7p", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 18, "url": "https://youtu.be/LtyBbRYsFkc?si=PfYAL09JVUsXppna", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 19, "url": "https://youtu.be/bVsnY41bwiI?si=he3v1xS-omuFc0x3", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 20, "url": "https://youtu.be/uW6MoU_8NIc?si=xGUTkRISqNNLl7Z_", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 21, "url": "https://youtu.be/amFXaFUjuqc?si=dKIpIyqRshjurgwy", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 22, "url": "https://youtu.be/r1goIDSSrho?si=L69RZ72LlIg6YQx-", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 23, "url": "https://youtu.be/Ugx9LD08tRQ?si=eX5QSrJhIuZ0oEpY", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 24, "url": "https://youtu.be/s9JkNNzOqeg?si=LHOqll9CND2at2-G", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 25, "url": "https://youtu.be/MNMG934oZTI?si=bDRQp2pufBu7JB9c", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 26, "url": "https://youtu.be/mRfGjX7xr78?si=sJrmWBjHV3vUDtcA", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 27, "url": "https://youtu.be/v1CBnbMEzfY?si=03nLgvJbqPNAABdr", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 28, "url": "https://youtu.be/gE_Zy_3P6PY?si=3Xl1RUBE9UiUF5tA", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 29, "url": "https://youtu.be/cZXuZ0-gcQA?si=xBZheHi3feYGwQUK", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 30, "url": "https://youtu.be/nXUD18v5fZE?si=XHMN2AnXgDEQwb21", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 31, "url": "https://youtu.be/bnst2UWx42U?si=9R_AbGFjymES9aoK", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 32, "url": "https://youtu.be/lQsRxjW15n8?si=r7ZR7pAndngz64_b", "source": "YouTube", "status": "pending_transcription"},
-            {"id": 33, "url": "https://youtu.be/FBVoUTweQAo?si=P1lAANe_i58S0TbS", "source": "YouTube", "status": "pending_transcription"}
+            {"id": 1, "url": "https://youtu.be/IOkjHBXPaDw?si=wqosAyCd-1SPnmje", "source": "YouTube", "status": "pending_transcription", "description": "مقابلة تلفزيونية نادرة لزياد الرحباني يتحدث فيها عن آرائه الفنية المعاصرة"},
+            {"id": 2, "url": "https://youtu.be/qv8TcKnpxio?si=0dVOTJweVnWCYMEw", "source": "YouTube", "status": "pending_transcription", "description": "حوار إذاعي قديم يناقش كواليس تأليف الأعمال الموسيقية والمسرحية"},
+            {"id": 3, "url": "https://youtu.be/FBVoUTweQAo?si=o3w5W2Jvl6uTTFuM", "source": "YouTube", "status": "pending_transcription", "description": "مقطع من لقاء يتناول ذكريات زياد مع الأخوين رحباني وفيروز"},
+            {"id": 4, "url": "https://youtu.be/HxgfSBAsn2c?si=VRXNX1gg0sLOY8Dr", "source": "YouTube", "status": "pending_transcription", "description": "إطلالة إعلامية لزياد يحلل فيها المشهد الثقافي والسياسي اللبناني بأسلوبه الساخر"},
+            {"id": 5, "url": "https://youtu.be/Fs71a_AupEA?si=8_kYdHPHAZZM2dWU", "source": "YouTube", "status": "pending_transcription", "description": "نقاش مفتوح مع الجمهور حول الفن الواقعي والابتعاد عن الرومانسية الكلاسيكية"},
+            {"id": 6, "url": "https://youtu.be/Fg9kVjnmftI?si=ShpIcMqGjzfpP3Zx", "source": "YouTube", "status": "pending_transcription", "description": "مداخلة فكرية هامة لزياد يتطرق فيها لملفات الهوية والأزمات الاجتماعية"},
+            {"id": 7, "url": "https://youtu.be/elI9-y3ZXnA?si=nHMx4BlxNCfvFUDT", "source": "YouTube", "status": "pending_transcription", "description": "حوار تلفزيوني يستعرض رؤيته لتطوير الموسيقى العربية وإدخال آلات الجاز"},
+            {"id": 8, "url": "https://youtu.be/a14MXoDcMoc?si=ryyuz5Hq-UvTkRyi", "source": "YouTube", "status": "pending_transcription", "description": "لقاء قديم مسجل يركز على مسرحياته المبكرة مثل نزل السرور وسهرية"},
+            {"id": 9, "url": "https://youtu.be/nVUKD2rxcTA?si=oUJLjxkwHyMnR1sW", "source": "YouTube", "status": "pending_transcription", "description": "حديث شيق عن كواليس أغنية سألوني الناس وعلاقته بوالده عاصي الرحباني"},
+            {"id": 10, "url": "https://youtu.be/Qo9kFTSwxcM?si=0o_hLk4IJBOW2sHO", "source": "YouTube", "status": "pending_transcription", "description": "مقابلة تليفزيونية تركز على الجانب الفلسفي والسياسي في كتابات زياد الصحفية"},
+            {"id": 11, "url": "https://youtu.be/_MmRqsSl6sc?si=U4cgz6u9unB2kiSP", "source": "YouTube", "status": "pending_transcription", "description": "لقاء يستعرض أسلوب السخرية السوداء في معالجة الحرب الأهلية اللبنانية مسرحيًا"},
+            {"id": 12, "url": "https://youtu.be/3LWgE465Cr4?si=t5FoLQA2CZwbi9z6", "source": "YouTube", "status": "pending_transcription", "description": "حوار حول ألبوم أنا مش كافر والضجة الفكرية والدينية التي أحدثها وقتها"},
+            {"id": 13, "url": "https://youtu.be/T84-uqbZdVE?si=jVyaIA3dxOsKr-Dc", "source": "YouTube", "status": "pending_transcription", "description": "حديث تلفزيوني خاص عن علاقته بالفنان جوزيف صقر وأعمالهما المشتركة"},
+            {"id": 14, "url": "https://youtu.be/jh4ENajuBtY?si=A3eDnbbcA7LBFgK0", "source": "YouTube", "status": "pending_transcription", "description": "جلسة حوارية عفوية من داخل استوديو زياد يستمع فيها لبعض ألحانه ويعلق عليها"},
+            {"id": 15, "url": "https://youtu.be/eEeVJGRmSKI?si=BR84yH4phk6qD0Un", "source": "YouTube", "status": "pending_transcription", "description": "لقاء صحفي مصور يتناول أسباب انقطاعه لفترات عن المسرح وتفاصيل عودته"},
+            {"id": 16, "url": "https://youtu.be/Rlw0kQZmLOM?si=Jd6flN-1N2bwAVgw", "source": "YouTube", "status": "pending_transcription", "description": "مقابلة تتناول تجربته في البرامج الإذاعية الناقدة مثل العقل زينة"},
+            {"id": 17, "url": "https://youtu.be/HIIz2VDN2uI?si=3XvldjpwIrbaFt7p", "source": "YouTube", "status": "pending_transcription", "description": "حوار يستكشف كواليس تعاونه الفني مع الفنانة لطيفة التونسية في ألبوم معلومات أكيدة"},
+            {"id": 18, "url": "https://youtu.be/LtyBbRYsFkc?si=PfYAL09JVUsXppna", "source": "YouTube", "status": "pending_transcription", "description": "نقاش إعلامي جريء لزياد حول اليسار العربي والحزب الشيوعي ومستقبل المقاومة"},
+            {"id": 19, "url": "https://youtu.be/bVsnY41bwiI?si=he3v1xS-omuFc0x3", "source": "YouTube", "status": "pending_transcription", "description": "لقاء مميز يتحدث فيه عن كتاباته الأولى في فترة المراهقة وديوان صديقي الله"},
+            {"id": 20, "url": "https://youtu.be/uW6MoU_8NIc?si=xGUTkRISqNNLl7Z_", "source": "YouTube", "status": "pending_transcription", "description": "مقابلة تلفزيونية مطولة تركز على تطور النمط الموسيقي الشرقي وتأثره بالجاز الغربي"},
+            {"id": 21, "url": "https://youtu.be/amFXaFUjuqc?si=dKIpIyqRshjurgwy", "source": "YouTube", "status": "pending_transcription", "description": "حوار يتناول تفاصيل حفلاته التاريخية في قلعة دمشق ومهرجانات بيت الدين"},
+            {"id": 22, "url": "https://youtu.be/r1goIDSSrho?si=L69RZ72LlIg6YQx-", "source": "YouTube", "status": "pending_transcription", "description": "حديث حول السينما وتجربته في وضع الموسيقى التصويرية لفيلم طيارة من ورق ونهلة"},
+            {"id": 23, "url": "https://youtu.be/Ugx9LD08tRQ?si=eX5QSrJhIuZ0oEpY", "source": "YouTube", "status": "pending_transcription", "description": "تسجيل نادر يناقش فيه البنية الهيكلية لمسرحية فيلم أمريكي طويل"},
+            {"id": 24, "url": "https://youtu.be/s9JkNNzOqeg?si=LHOqll9CND2at2-G", "source": "YouTube", "status": "pending_transcription", "description": "لقاء يستعرض جوانب من حياته الشخصية وفلسفته الخاصة في مواجهة الأزمات"},
+            {"id": 25, "url": "https://youtu.be/MNMG934oZTI?si=bDRQp2pufBu7JB9c", "source": "YouTube", "status": "pending_transcription", "description": "مقابلة إذاعية تتحدث عن طبيعة العبقرية الفنية والضغوطات العائلية داخل آل الرحباني"},
+            {"id": 26, "url": "https://youtu.be/mRfGjX7xr78?si=sJrmWBjHV3vUDtcA", "source": "YouTube", "status": "pending_transcription", "description": "حوار يناقش قضايا النقد المسرحي وكيف يرى زياد مستقبل الكوميديا السياسية"},
+            {"id": 27, "url": "https://youtu.be/v1CBnbMEzfY?si=03nLgvJbqPNAABdr", "source": "YouTube", "status": "pending_transcription", "description": "لقاء يستعرض ألبوم هدوء نسبي وكيف وازن فيه بين الطابع الشرقي والغربي"},
+            {"id": 28, "url": "https://youtu.be/gE_Zy_3P6PY?si=3Xl1RUBE9UiUF5tA", "source": "YouTube", "status": "pending_transcription", "description": "إطلالة إعلامية مميزة تناقش إرث السيدة فيروز الفني ودوره في الألبومات الأخيرة"},
+            {"id": 29, "url": "https://youtu.be/cZXuZ0-gcQA?si=xBZheHi3feYGwQUK", "source": "YouTube", "status": "pending_transcription", "description": "لقاء تلفزيوني خاص ومطول مع زياد الرحباني يستعرض محطات بارزة في مسيرته الفنية"},
+            {"id": 30, "url": "https://youtu.be/nXUD18v5fZE?si=XHMN2AnXgDEQwb21", "source": "YouTube", "status": "pending_transcription", "description": "مقابلة إعلامية يناقش فيها زياد آرائه السياسية الحادة وخلفيته الفكرية اليسارية"},
+            {"id": 31, "url": "https://youtu.be/bnst2UWx42U?si=9R_AbGFjymES9aoK", "source": "YouTube", "status": "pending_transcription", "description": "حوار إذاعي شيق يركز على تفاصيل إنتاج مقطوعاته الموسيقية الفريدة والألحان الشعبية"},
+            {"id": 32, "url": "https://youtu.be/lQsRxjW15n8?si=r7ZR7pAndngz64_b", "source": "YouTube", "status": "pending_transcription", "description": "جلسة نقاشية يستعرض فيها زياد تاريخ المسرح الرحباني والتحول الجذري الذي أحدثه"},
+            {"id": 33, "url": "https://youtu.be/FBVoUTweQAo?si=P1lAANe_i58S0TbS", "source": "YouTube", "status": "pending_transcription", "description": "لقاء مميز يتحدث فيه عن علاقته بالشارع اللبناني وهموم المواطن التي يستوحي منها نصوصه"}
         ]
     }
 }
