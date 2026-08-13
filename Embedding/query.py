@@ -22,20 +22,26 @@ collection = client.get_collection(
     embedding_function=arabic_ef
 )
 
-# 4. User Question
-query_text = "ما هي أبرز المحطات الفنية لزياد الرحباني؟"
+# 4. Main Search Function
+def search_chroma(query_text: str, top_k: int = 3):
+    """
+    Takes a query string, searches ChromaDB for relevant chunks,
+    and returns a list of document strings.
+    """
+    results = collection.query(
+        query_texts=[query_text],
+        n_results=top_k
+    )
+    # Return only the list of retrieved text documents
+    return results["documents"][0]
 
-# 5. Perform Vector Search (Retrieve top 3 relevant chunks)
-results = collection.query(
-    query_texts=[query_text],
-    n_results=3
-)
-
-# 6. Display Retrieved Chunks
-print(f"--- Question: {query_text} ---\n")
-for i, doc in enumerate(results["documents"][0]):
-    meta = results["metadatas"][0][i]
-    print(f"Result {i+1}:")
-    print(f"Content: {doc}")
-    print(f"Source: {meta.get('file_source', 'Unknown')}")
-    print("-" * 50)
+# 5. Local Script Testing
+if __name__ == "__main__":
+    test_query = "ما هي أبرز المحطات الفنية لزياد الرحباني؟"
+    retrieved_docs = search_chroma(test_query, top_k=3)
+    
+    print(f"--- Question: {test_query} ---\n")
+    for i, doc in enumerate(retrieved_docs, 1):
+        print(f"Result {i}:")
+        print(doc)
+        print("-" * 30)
