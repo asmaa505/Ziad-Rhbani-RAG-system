@@ -1,3 +1,6 @@
+import truststore
+truststore.inject_into_ssl()
+
 import os
 import chromadb
 from chromadb.utils import embedding_functions

@@ -1,3 +1,6 @@
+import truststore
+truststore.inject_into_ssl()
+
 import os
 import sys
 from dotenv import load_dotenv
@@ -22,8 +25,8 @@ api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     raise ValueError(f"GEMINI_API_KEY not found in {env_path}! Please check your .env file.")
 
-# 4. Initialize Gemini Client
-client = genai.Client(api_key=api_key)
+# 4. Initialize Gemini Client with standard 30s timeout
+client = genai.Client(api_key=api_key, http_options={"timeout": 30000})
 
 def generate_answer(user_query: str):
     # Retrieve relevant context chunks from ChromaDB
@@ -47,7 +50,7 @@ Answer:
 
     # Generate content using Gemini model
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.5-flash",
         contents=prompt,
     )
 
@@ -61,7 +64,7 @@ if __name__ == "__main__":
     
     answer = generate_answer(test_question)
     
-    print("🤖 Gemini RAG Answer:")
+    print(" Gemini RAG Answer:")
     print("=" * 50)
     print(answer)
     print("=" * 50)
