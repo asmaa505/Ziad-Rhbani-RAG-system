@@ -3,6 +3,7 @@ truststore.inject_into_ssl()
 
 import os
 import sys
+import time
 from dotenv import load_dotenv
 from google import genai
 
@@ -28,6 +29,32 @@ if not api_key:
 # 4. Initialize Gemini Client with standard 30s timeout
 client = genai.Client(api_key=api_key, http_options={"timeout": 30000})
 
+def get_fallback_response(user_query: str, context_text: str, error_msg: str) -> str:
+    """
+    Generates a high-quality custom fallback response using the local context retrieved from ChromaDB
+    when the Gemini API is unavailable (503), rate-limited (429), or fails.
+    """
+    fallback_header = (
+        "⚠️ **ملاحظة:** يواجه نظام التوليد الذكي حالياً ضغطاً كبيراً أو عطلاً مؤقتاً في الاتصال بخادم Gemini. "
+        "حرصاً على تقديم الخدمة، تم استرجاع المعلومات التالية مباشرة من قاعدة البيانات الأرشيفية المحلية ذات الصلة بسؤالك:\n\n"
+    )
+    
+    if not context_text.strip():
+        return (
+            fallback_header +
+            "عذراً، لم نتمكن من الاتصال بالنموذج الذكي لتوليد إجابة مخصصة، "
+            "ولم نتمكن من العثور على نصوص كافية في الأرشيف المحلي للإجابة على سؤالك مباشرة."
+        )
+    
+    # Extract relevant retrieved text chunks and format them nicely
+    formatted_context = "### نصوص مسترجعة مباشرة من أرشيف زياد رحباني:\n"
+    chunks = context_text.split("\n\n---\n\n")
+    for idx, chunk in enumerate(chunks, 1):
+        if chunk.strip():
+            formatted_context += f"- **المرجع {idx}:** {chunk.strip()}\n\n"
+        
+    return fallback_header + formatted_context
+
 def generate_answer(user_query: str):
     # Retrieve relevant context chunks from ChromaDB
     context_chunks = search_chroma(user_query, top_k=3)
@@ -48,13 +75,38 @@ Question:
 Answer:
 """
 
-    # Generate content using Gemini model
-    response = client.models.generate_content(
-        model="gemini-3.5-flash",
-        contents=prompt,
-    )
-
-    return response.text
+    # Robust Retry Logic (Exponential Backoff) & Handling 429/503 states
+    max_retries = 3
+    base_delay = 2.0  # seconds (delay increases to 4.0s, then 8.0s)
+    
+    for attempt in range(max_retries):
+        try:
+            # Generate content using Gemini model
+            response = client.models.generate_content(
+                model="gemini-3.5-flash",
+                contents=prompt,
+            )
+            return response.text
+        except Exception as e:
+            error_msg = str(e)
+            # Detect retryable server errors (503 Service Unavailable, 429 Rate Limit/Quota Exceeded, or connection timeouts)
+            is_retryable = (
+                "503" in error_msg or 
+                "429" in error_msg or 
+                "rate limit" in error_msg.lower() or 
+                "unavailable" in error_msg.lower() or 
+                "timeout" in error_msg.lower()
+            )
+            
+            if is_retryable and attempt < max_retries - 1:
+                delay = base_delay * (2 ** attempt)
+                print(f"[RAG Generation] Gemini API connection issue: {error_msg}. Retrying in {delay}s (Attempt {attempt+1}/{max_retries})...")
+                time.sleep(delay)
+            else:
+                # Retries exhausted or non-retryable critical API failure
+                print(f"[RAG Generation ERROR] Terminal Gemini API failure after {attempt+1} attempt(s): {error_msg}")
+                # Seamless user experience fallback to local vector database chunks
+                return get_fallback_response(user_query, context_text, error_msg)
 
 # --- Execution & Testing ---
 if __name__ == "__main__":
